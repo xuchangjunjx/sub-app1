@@ -1,0 +1,26 @@
+{
+  "name": "my-sub-app1",
+  "resources": {
+    "app.css": "/sub-app1/css/app.5a5c2f38.css",
+    "app.js": "/sub-app1/js/app.549cea0b.js",
+    "app.js.map": "/sub-app1/js/app.549cea0b.js.map",
+    "img/logo.png": "/sub-app1/img/logo.82b9c7a5.png"
+  },
+  "runtime": {},
+  "entrypoints": {
+    "app": {
+      "css": [
+        "/sub-app1/css/app.5a5c2f38.css"
+      ],
+      "js": [
+        "/sub-app1/js/app.549cea0b.js"
+      ],
+      "css.map": [
+        "/sub-app1/css/app.5a5c2f38.css.map"
+      ],
+      "js.map": [
+        "/sub-app1/js/app.549cea0b.js.map"
+      ]
+    }
+  }
+}
