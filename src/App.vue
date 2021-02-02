@@ -1,10 +1,13 @@
 <template>
   <div id="root">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/page1">page1</router-link>
+      <router-link to="/">子应用首页</router-link> |
+      <router-link to="/page1">子应用page1</router-link>
     </div>
-    <router-view />
+    <h2>SubApp Page View</h2>
+    <div>
+      <router-view />
+    </div>
   </div>
 </template>
 

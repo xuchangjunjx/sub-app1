@@ -1,25 +1,24 @@
 {
   "name": "my-sub-app1",
   "resources": {
-    "app.css": "/sub-app1/css/app.5a5c2f38.css",
-    "app.js": "/sub-app1/js/app.549cea0b.js",
-    "app.js.map": "/sub-app1/js/app.549cea0b.js.map",
-    "img/logo.png": "/sub-app1/img/logo.82b9c7a5.png"
+    "app.css": "/sub-app1/css/app.f554100e.css",
+    "app.js": "/sub-app1/js/app.fac38a3f.js",
+    "app.js.map": "/sub-app1/js/app.fac38a3f.js.map"
   },
   "runtime": {},
   "entrypoints": {
     "app": {
       "css": [
-        "/sub-app1/css/app.5a5c2f38.css"
+        "/sub-app1/css/app.f554100e.css"
       ],
       "js": [
-        "/sub-app1/js/app.549cea0b.js"
+        "/sub-app1/js/app.fac38a3f.js"
       ],
       "css.map": [
-        "/sub-app1/css/app.5a5c2f38.css.map"
+        "/sub-app1/css/app.f554100e.css.map"
       ],
       "js.map": [
-        "/sub-app1/js/app.549cea0b.js.map"
+        "/sub-app1/js/app.fac38a3f.js.map"
       ]
     }
   }
