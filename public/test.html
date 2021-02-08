@@ -1,0 +1,20 @@
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="./asciinema-player.css" />
+   <script src="./asciinema-player.js"></script>
+
+ </head>
+<body>
+   <asciinema-player id="player"  ></asciinema-player>
+   <button id="btn" onclick="click()">xxx</button>
+</body>
+<script>
+    window.onload=function(){
+        document.getElementById('btn').addEventListener('click',function(){
+            document.getElementById('player').setAttribute('src','./record.cast');
+            console.log(window.asciinema)
+        },true)
+    }
+     
+</script>
+</html>

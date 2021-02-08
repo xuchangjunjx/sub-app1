@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "@alicloud/console-os-vue-portal": "^0.4.1",
+    "@secrets/asciinema-player-vue": "^0.0.1",
+    "asciinema-player": "^2.6.1",
     "core-js": "^2.6.5",
+    "raw-loader": "^4.0.2",
     "vue": "^2.6.10",
     "vue-cli-plugin-console-os": "^0.4.5",
     "vue-router": "^3.0.3",
