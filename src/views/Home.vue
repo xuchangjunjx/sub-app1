@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <asciinema-player-vue
+    <!-- <asciinema-player-vue
       theme="tango"
       title="hello world"
       author="xubowen"
@@ -12,11 +12,12 @@
       :fontSize="12"
       autoplay
       :src="data"
-    ></asciinema-player-vue>
+    ></asciinema-player-vue> -->
+    home
   </div>
 </template>
 <script>
-import data from "./record.cast";
+// import data from "./record.cast";
 export default {
   components: {},
   data() {
@@ -26,7 +27,7 @@ export default {
   },
   methods: {
     setData() {
-      this.data = data;
+      // this.data = data;
     }
   },
   mounted() {

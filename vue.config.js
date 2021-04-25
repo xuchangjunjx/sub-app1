@@ -21,6 +21,10 @@ module.exports = {
     }
   },
   configureWebpack: {
+    externals: {
+      // echarts: "echarts",
+      "element-ui": "ELEMENT"
+    },
     output: {
       library: `${name}-[name]`,
       libraryTarget: "umd", // 把微应用打包成 umd 库格式

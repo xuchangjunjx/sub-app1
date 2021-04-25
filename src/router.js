@@ -6,7 +6,7 @@ Vue.use(Router);
 
 export default new Router({
   mode: "history",
-  base: window.__POWERED_BY_QIANKUN__ ? "/sub-app1" : "/",
+  base: window.__POWERED_BY_QIANKUN__ ? "/sub-app" : "/",
   // base: "/sub-app1/",
   routes: [
     {
